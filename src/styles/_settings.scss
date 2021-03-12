@@ -1,0 +1,30 @@
+// Colors
+.background-color {
+  background-color: #DADADA;
+  color: black;
+}
+.primary-color {
+  background-color: #23282d;
+  color: lightgray;
+};
+
+.secondary-color {
+  background-color: #f1f1f1;
+  color: #484848;
+}
+.third-color {
+  background-color: #709fb0;
+  color: black;
+}
+
+.fourth-color {
+  background-color: #a7c5eb;
+  color: black;
+}
+
+// Spacing
+$s-size: 1.2rem;
+$m-size: 1.6rem;
+$l-size: 3.2rem;
+$xl-size: 4.8rem;
+$desktop-breakpoint: 45rem;

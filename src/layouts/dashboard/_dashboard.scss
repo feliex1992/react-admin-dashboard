@@ -1,0 +1,34 @@
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+.main__drawer_open {
+  margin-left: 250px;
+}
+
+.main__drawer_close {
+  margin-left: 50px;
+}
+
+.button_drawer {
+  position: relative;
+  left: 20px;
+  font-size: 12px;
+  border-radius: 0px 200px 200px 0px;
+  -moz-border-radius: 0px 200px 200px 0px;
+  -webkit-border-radius: 0px 200px 200px 0px;
+  border: 0px solid #000000;
+  padding: 10px;
+  z-index: 2;
+  transition: left .5s;
+  margin: -5px 0 0 -5px;
+}
+
+.button__drawer_open {
+  left: 220px;
+}
+
+.button__drawer_close {
+  left: 0px;
+}
